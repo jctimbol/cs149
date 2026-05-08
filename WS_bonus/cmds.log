@@ -1,0 +1,16 @@
+ 1001  pwd
+ 1002  cd ~
+ 1003  cd desktop/
+ 1004  ls -latr
+ 1005  cd cs 149
+ 1006  cd cs149
+ 1007  git init
+ 1008  git remote add origin https://github.com/jctimbol/cs149.git
+ 1009  git config --global user.email "jlc.timbol@gmail.com"
+ 1010  git config --global user.name "jctimbol"
+ 1011  mkdir WS_bonus
+ 1012  cd WS_bonus
+ 1013  git add .
+ 1014  wget -O out.pdf https://tinyurl.com/yy94jltt
+ 1015  curl -O https://tinyurl.com/yy94jltt
+ 1016  ls -latr
