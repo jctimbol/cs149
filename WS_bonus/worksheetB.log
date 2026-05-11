@@ -1,0 +1,16 @@
+  999  git clone git://g.csail.mit.edu/xv6-labs-2023
+ 1000  cd xv6-labs-2023
+ 1001  make qemu
+ 1002  brew tap riscv-software-src/riscv
+ 1003  brew install riscv-tools
+ 1004  brew install qemu
+ 1005  make qemu
+ 1006  git checkout util
+ 1007  nano user/usertests.c
+ 1008  make qemu
+ 1009  nano user/sleep.c
+ 1010  nano Makefile
+ 1011  make qemu
+ 1012  make qemu
+ 1013  make grade
+ 1014  python3 grade-lab-util sleep
